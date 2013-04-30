@@ -1,0 +1,20 @@
+% Add transparency
+URxvt.depth:			32
+% URxvt.background:		rgba:1aa3/1aaa/0faf/cfba
+
+URxvt.background:		rgba:0000/0000/0000/eefa
+%URxvt.background:	white	
+% Scroll bar and font
+
+URxvt.scrollstyle:		plain	
+%URxvt.font:			xft:cantarell:size=9 
+XTerm*font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-1
+URxvt.scrollBar: 	false
+% Clickable URLS
+URxvt.perl-ext-common:		default,matcher
+URxvt.urlLauncher:		/usr/bin/firefox
+URxvt.matcher.button:		1
+
+% Font Color
+URxvt.foreground:		Green		
+URxvt.urgentOnBell:	true
