@@ -12,6 +12,7 @@ Programs used:
 * dmenu
 * dzen2
 * custom scripts for dzen2
+* mpd
 * redshift
 * wicd
 * dropbox
@@ -22,6 +23,7 @@ Programs used:
 
 Setup
 -----
+
 Create symbolic links for all of the configs provided:
 
     cd ~
@@ -32,3 +34,9 @@ Create symbolic links for all of the configs provided:
     ln -s dot_config_xmonad/xmonad .xmonad
 
 Running the `startx` command should start everything.
+
+Misc
+----
+
+* the `bashrc` file contains a custom color scheme for man files, and some
+  scripts to help mount usb sticks

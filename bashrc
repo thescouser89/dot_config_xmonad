@@ -6,11 +6,9 @@ alias ls='ls -h --color=auto'
 alias ll='ls --color=auto -l'
 alias lll='ls --color=auto -al'
 
-alias mount_usb='sudo mount -o uid=1000,gid=100 /dev/sdc1 /mnt/usb'
+alias mount_usb='sudo mount -o uid=1000,gid=100 /dev/sdb1 /mnt/usb'
+alias mount_usb2='sudo mount -o uid=1000,gid=100 /dev/sdc1 /mnt/usb'
 
-alias gcalcli='gcalcli --24hr --user "dustinkut@gmail.com" calm'
-
-alias ssh_secure='ssh -D 9999 -C dustin@lakaz.org -i /home/dustin/.mcgill_private'
 # Colors
 txtblk='\e[0;30m' # Black - Regular
 txtred='\e[0;31m' # Red
