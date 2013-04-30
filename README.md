@@ -39,4 +39,4 @@ Misc
 ----
 
 * the `bashrc` file contains a custom color scheme for man files, and some
-  scripts to help mount usb sticks
+  scripts to help mount usb sticks.
